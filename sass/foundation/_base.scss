@@ -1,0 +1,13 @@
+@use "../global" as *;
+
+body{
+  font-size:16px;
+  color: $theme-color;
+  font-family: $font-ja;
+  width:100%;
+  -webkit-font-smoothing:antialiased;
+  background:#f4fbfc;
+  @include sp() {
+    font-size:14px;
+  }
+}
